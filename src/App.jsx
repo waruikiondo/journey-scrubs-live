@@ -174,10 +174,10 @@ export default function App() {
         <div className="absolute inset-0 z-0">
           {/* UPDATED: Uses your local hero-image.png */}
           <img 
-            src="/hero-image.png" 
-            alt="Nurse in Scrubs" 
-            className="w-full h-full object-cover object-center opacity-90"
-          />
+  src="/hero-image.png" 
+  alt="Nurse in Scrubs" 
+  className="w-full h-full object-cover object-top opacity-90" // <-- CHANGE THIS
+/>
           {/* Gradient Overlay - Punchier colors */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/60 to-fuchsia-900/30"></div>
         </div>
