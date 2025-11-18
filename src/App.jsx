@@ -172,12 +172,12 @@ export default function App() {
       {/* --- HERO SECTION (Vibrant & Bold) --- */}
       <header id="home" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {/* UPDATED: Uses your local hero-image.png */}
+          {/* UPDATED: Adjusted crop position to center_25% */}
           <img 
-  src="/hero-image.png" 
-  alt="Nurse in Scrubs" 
-  className="w-full h-full object-cover object-top opacity-90" // <-- CHANGE THIS
-/>
+            src="/hero-image.png" 
+            alt="Nurse in Scrubs" 
+            className="w-full h-full object-cover object-[center_25%] opacity-90"
+          />
           {/* Gradient Overlay - Punchier colors */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/60 to-fuchsia-900/30"></div>
         </div>
