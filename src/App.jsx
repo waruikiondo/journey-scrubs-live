@@ -198,7 +198,7 @@ export default function App() {
             </h1>
             
             <p className="text-xl text-slate-200 mb-10 max-w-xl leading-relaxed font-medium drop-shadow-md">
-              From the Meru to the Outback of Australia, and now building my dream life in Texas. I share the style, the struggle, and the success.
+              From Meru to the Outback of Australia, and now building my dream life in Texas. I share the style, the struggle, and the success.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
